@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class FinalOpti : MonoBehaviour
 {
-    [SerializeField] int uncappedNum = 120; //you can modify the number adding what you want to target as fps
+    [SerializeField] private int uncappedNum = 120; //you can modify the number adding what you want to target as fps
 
     void Awake()
     {
