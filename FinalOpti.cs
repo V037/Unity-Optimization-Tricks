@@ -11,7 +11,7 @@ public class FinalOpti : MonoBehaviour
     void Awake()
     {
         //normally it is suggested to use awake only for initialize variable,
-        //but here we want to be sure to block Unintentional debug.logging from the start
+        //but here we want to be sure to block Unintentional debug.logging from the very start
         notDebugAnymore();
     }
 
