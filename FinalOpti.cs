@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class FinalOpti : MonoBehaviour
 {
-    [SerializeField] private int uncappedNum = 120; //you can modify the number adding what you want to target as fps
+    [SerializeField] private int uncappedNum = 300; //you can modify the number adding what you want to target as fps
 
     void Awake()
     {
@@ -22,6 +22,7 @@ public class FinalOpti : MonoBehaviour
 
     private void fpsUncapper()
     {
+        //IMPORTANT: your application must have v-sync off
         Application.targetFrameRate = uncappedNum;  //disable the limit from 60fps to uncappedNum
     }
 
