@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class FinalOpti : MonoBehaviour
 {
+//set always as private your variables for gain some perfomances by hiding them to other scripts, if you want read the variable in the inspector use [SerializeField]
     [SerializeField] private int uncappedNum = 300; //you can modify the number adding what you want to target as fps
 
     void Awake()
